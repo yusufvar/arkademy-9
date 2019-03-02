@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSON</title>
+</head>
+<body>
+<div id="demo"></div>
+</body>
+</html>
+<script>
+var x = {
+	"name" : "achmad yusuf amir",
+	"address" : "gresik",
+	"hobbies" : ["military", "gaming", "coding"],
+	"is_married" :  false,
+	"school" : {
+				"highSchool" : "SMK Muhammadiyah 3 Gresik", 
+				"university" : "Universitas Muhammadiyah Gresik"
+				},
+	"skills" : [{"activity" : "shoot", "accurat" : 80},
+				{"activity" : "coding:", "JAVA score" :70, "PHP score" :60, "python score":40, "C++ score":20 },
+				{"activity" : "cooking", "taste" : 80},
+				{"activity":"service PC", "practice":70},
+				{"activity": "military", "class": "teroris"}
+				]
+		};
+var x=JSON.stringify(x);
+document.getElementById("demo").innerHTML = x;
+</script>
