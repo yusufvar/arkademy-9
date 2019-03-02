@@ -21,8 +21,8 @@ def drawImage(size):
         buff=""
 
 
-drawImage(7)
-drawImage(9)
+drawImage ( 5 )
+drawImage ( 7 )
                 
                 
                 
